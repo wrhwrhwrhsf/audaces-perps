@@ -28,8 +28,6 @@ const MARKETS = [
 ];
 
 const SERVICES = [
-  "funding-extraction",
-  "funding",
   "garbage-collect",
   "liquidate",
   "liquidation-cleanup",
