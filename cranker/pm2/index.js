@@ -3,9 +3,9 @@ const { spawn } = require("child_process");
 const fetch = require("node-fetch");
 const publicIp = require("public-ip");
 
-const FEE_PAYER = process.env.FEE_PAYER; // Path to your wallet file
+const FEE_PAYER = "$HOME/audaces-perps/cranker/wallet.json"; // Path to your wallet file
 
-const ENDPOINT = process.env.ENDPOINT; // RPC Endpoint
+const ENDPOINT = "https://api.mainnet-beta.solana.com"; // RPC Endpoint
 
 const SLACK_URL = process.env.SLACK_URL; // Slack URL for notification (optional)
 
